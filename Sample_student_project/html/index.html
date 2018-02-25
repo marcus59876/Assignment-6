@@ -35,6 +35,7 @@
 var searchBox = new SearchBox("searchBox", "search",false,'Search');
 /* @license-end */
 </script>
+<<<<<<< HEAD
 <script type="text/javascript" src="menudata.js"></script>
 <script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
@@ -45,6 +46,34 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+=======
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li class="current"><a href="index.html"><span>Main&#160;Page</span></a></li>
+<<<<<<< HEAD
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
+=======
+>>>>>>> 731e3373baaf3f8b497d3ebf8294d88f708cd837
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+>>>>>>> fc4d5a446b437ee8a70ae75d626661d3368554bb
 </div><!-- top -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"

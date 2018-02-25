@@ -1,7 +1,17 @@
+<<<<<<< HEAD
+/** 
+* File Name: othello.cc
+* Names: Lydia Shiffler, Marcus McKinley, Josh Wright, Eric Hahn
+* Date: 2/25/18
+* Description: the othello.cc gives the functions to play the game othello and gives the different moves possible
+*/
+
+=======
 // Brock Ferrell
 // CS2401
 // November 23, 2015
 // Project7
+>>>>>>> 731e3373baaf3f8b497d3ebf8294d88f708cd837
 
 #include "othello.h"
 
@@ -400,7 +410,14 @@ void Othello::countingPieces() {
   cout << endl;
 }
 
+<<<<<<< HEAD
+/** the is_game_over function sees if there is any open spaces and if *there is not, it returns true and if there are open spaces, it returns *false. This fucntion has no parameters
+*/
+
+bool Othello::is_game_over()const { 
+=======
 bool Othello::is_game_over()const {
+>>>>>>> 731e3373baaf3f8b497d3ebf8294d88f708cd837
 
   if (skips == 2 || openSpots == 0 || black == 0 || white == 0) {
     cout << "The game is over.\n";

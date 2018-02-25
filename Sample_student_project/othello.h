@@ -1,8 +1,11 @@
-// Brock Ferrell
-// CS2401
-// November 23, 2015
-// Project7
-
+/**
+* Eric Hahn, Josh Wright, Lydia Shiffler, Marcus Mckinley
+* File: Othello.h
+* Date: 2/25/18
+* Description: Header file for othello class. It is used to describe a game of othello, with
+*              functions to describe the moves as well as functions for the AI to compute its 
+*              Next move and variables to describe the various aspects of the game
+*/
 #ifndef OTHELLO_H
 #define OTHELLO_H
 #include "game.h"
@@ -27,7 +30,7 @@ public:
 	void restart();
 	void make_skips();
 	void countingPieces();
-	void whosTurn();
+	void whosTurn(); /// Function determines whos turn it is. It takes not parameters and doesn't return anything
 	game* clone()const{return new Othello(*this);}
 	void compute_moves(std::queue<std::string>& moves)const;
 	who winning()const;

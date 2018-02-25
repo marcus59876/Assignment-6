@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-// Brock Ferrell
-// CS2401
-// November 23, 2015
-// Project7
 
-=======
 /**
 * Eric Hahn, Josh Wright, Lydia Shiffler, Marcus Mckinley
 * File: Othello.h

@@ -1,5 +1,9 @@
-// File: game.h (part of the namespace main_savitch_14)
-
+/** 
+* File name: game.h
+* Names: Marcus McKinley, Lydia Shiffler, Josh Wright, Eric Hahn
+* Date: 2/25/2018
+* Description: This is the game class. It can be used to make many games.
+*/
 
 #ifndef MAIN_SAVITCH_GAME
 #define MAIN_SAVITCH_GAME
@@ -8,6 +12,8 @@
 
 namespace main_savitch_14
 {
+
+
 class game
 {
 public:
@@ -47,7 +53,7 @@ protected:
 	// VIRTUAL FUNCTIONS THAT MUST BE OVERRIDDEND:
 	// The overriding function should call the original when it finishes.
 	// *******************************************************************
-	// Have the next player make a specified move:
+	/// Have the next player make a specified move:
 	virtual void make_move(const std::string& move) { ++move_number; }
 	// Restart the game from the beginning:
 	virtual void restart( ) { move_number = 0; }

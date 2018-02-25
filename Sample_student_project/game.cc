@@ -1,4 +1,8 @@
 // File: game.cxx
+/*
+Program: game.cc
+Description: Game 
+*/
 
 #include <cassert>    // Provides assert
 #include <climits>    // Provides INT_MAX and INT_MIN
@@ -17,6 +21,8 @@ namespace main_savitch_14
 //*************************************************************************
 // PUBLIC MEMBER FUNCTIONS
 
+/// @param n/a
+/// @return game::who
 game::who game::play( )
 // The play function should not be overridden. It plays one round of the
 // game, with the human player moving first and the computer second.
@@ -45,11 +51,15 @@ game::who game::play( )
 //*************************************************************************
 // OPTIONAL VIRTUAL FUNCTIONS (overriding these functions is optional)
 
+/// @param const string& message
+/// @return n/a
 void game::display_message(const string& message) const
 {
 	cout << message;
 }
 
+/// @param n/a
+/// @return string
 string game::get_user_move( ) const
 {
 	string answer;
@@ -60,6 +70,8 @@ string game::get_user_move( ) const
 	return answer;
 }
 
+/// @param n/a
+/// @return game::who
 game::who game::winning()const {
 
 	int value = evaluate();
@@ -77,6 +89,8 @@ game::who game::winning()const {
 //*************************************************************************
 // PRIVATE FUNCTIONS (these are the same for every game)
 
+/// @param int, int
+/// @return int
 int game::eval_with_lookahead(int look_ahead, int beat_this)
 // Evaluate a board position with lookahead.
 // --int look_aheads:  How deep the lookahead should go to evaluate the move.
@@ -125,6 +139,8 @@ int game::eval_with_lookahead(int look_ahead, int beat_this)
 	return -best_value;
 }
 
+/// @param n/a
+/// @return n/a
 void game::make_computer_move( )
 {
 	queue<string> moves;
@@ -158,6 +174,8 @@ void game::make_computer_move( )
 	make_move(best_move);
 }
 
+/// @param n/a
+/// @return n/a
 void game::make_human_move( ) {
 	string move;
 

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /**
  * @file colors.h
  * @author Matthew Beldyk
@@ -15,8 +15,7 @@
  * curious, so email 'em my way, please.
 */
 
-=======
-<<<<<<< HEAD
+
 //***********************************************************
 //
 //  File:     colors.h
@@ -35,7 +34,7 @@
 //		  make any large improvements or whatever, I am
 //		  curious, so email 'em my way, please.
 //
->>>>>>> fc4d5a446b437ee8a70ae75d626661d3368554bb
+
 //***********************************************************
 //
 //  all credit given to Matthew Beldyk for writing this file
@@ -43,7 +42,7 @@
 //  just wanted to use to make everything look nice
 //
 //***********************************************************
-=======
+
 /**
 *
 *  File:     colors.h
@@ -69,7 +68,7 @@
 *  just wanted to use to make everything look nice
 *
 */
->>>>>>> 731e3373baaf3f8b497d3ebf8294d88f708cd837
+
 
 #ifndef COLORS_H
 #define COLORS_H
@@ -77,20 +76,14 @@
 #include <string>
 using namespace std;
 
-<<<<<<< HEAD
+
 const string BLINK     = "\e[5m";          //don't use this your
 					   //professor will probibly
 					   //beat you to death if
 					   //you do feel the need to
 					   //use blink!!!
-=======
-const string BLINK     = "\e[5m";          /**don't use this your
-					   *professor will probably
-					   *beat you to death if
-					   *you do feel the need to
-					   *use blink!!!
-					   */	
->>>>>>> 731e3373baaf3f8b497d3ebf8294d88f708cd837
+
+
 const string BOLD      = "\e[1m";
 
 const string RESET     = "\e[0m";

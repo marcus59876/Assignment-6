@@ -1,0 +1,280 @@
+\hypertarget{classmain__savitch__14_1_1game}{}\section{main\+\_\+savitch\+\_\+14\+:\+:game Class Reference}
+\label{classmain__savitch__14_1_1game}\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+
+
+{\ttfamily \#include $<$game.\+h$>$}
+
+
+
+Inheritance diagram for main\+\_\+savitch\+\_\+14\+:\+:game\+:
+% FIG 0
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{classmain__savitch__14_1_1game_a4fe20fb287f809ae2b68e28e4ccba634}{who} \{ \hyperlink{classmain__savitch__14_1_1game_a4fe20fb287f809ae2b68e28e4ccba634ad1ab8515b7d878438d60ec785343b305}{H\+U\+M\+AN}, 
+\hyperlink{classmain__savitch__14_1_1game_a4fe20fb287f809ae2b68e28e4ccba634af05e1639d5a0101703a1e178cf5ba666}{N\+E\+U\+T\+R\+AL}, 
+\hyperlink{classmain__savitch__14_1_1game_a4fe20fb287f809ae2b68e28e4ccba634a983c07bd1a5606dd31a0fd6a6b86b36b}{C\+O\+M\+P\+U\+T\+ER}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classmain__savitch__14_1_1game_a65afffa6f5aa8dcd781ad38f898130e0}{game} ()
+\item 
+virtual \hyperlink{classmain__savitch__14_1_1game_a5e8d21d1d658a12db6fddacca3490671}{$\sim$game} ()
+\item 
+\hyperlink{classmain__savitch__14_1_1game_a4fe20fb287f809ae2b68e28e4ccba634}{who} \hyperlink{classmain__savitch__14_1_1game_a4dbeaddb78059f7c5dcbf5cc4e026317}{play} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{classmain__savitch__14_1_1game_ab8b87c3a1b68634861a8c0ed2b9f1992}{display\+\_\+message} (const std\+::string \&message) const 
+\item 
+virtual std\+::string \hyperlink{classmain__savitch__14_1_1game_a1265f262f5a15bca5b532e6e97d13089}{get\+\_\+user\+\_\+move} () const 
+\item 
+virtual \hyperlink{classmain__savitch__14_1_1game_a4fe20fb287f809ae2b68e28e4ccba634}{who} \hyperlink{classmain__savitch__14_1_1game_a38d435da6aadc192ac10160b26ea0cc1}{last\+\_\+mover} () const 
+\item 
+virtual int \hyperlink{classmain__savitch__14_1_1game_aee677d1ef52c35474cb7c6071bb71749}{moves\+\_\+completed} () const 
+\item 
+virtual \hyperlink{classmain__savitch__14_1_1game_a4fe20fb287f809ae2b68e28e4ccba634}{who} \hyperlink{classmain__savitch__14_1_1game_a0d445fdec3201c91c145ee2763e08922}{next\+\_\+mover} () const 
+\item 
+virtual \hyperlink{classmain__savitch__14_1_1game_a4fe20fb287f809ae2b68e28e4ccba634}{who} \hyperlink{classmain__savitch__14_1_1game_ae38d001e92ebe46e1a1433e41446c7ab}{opposite} (\hyperlink{classmain__savitch__14_1_1game_a4fe20fb287f809ae2b68e28e4ccba634}{who} player) const 
+\item 
+virtual void \hyperlink{classmain__savitch__14_1_1game_a5954eccb6abf1ae900ad853ad2af99fa}{counting\+Pieces} ()=0
+\item 
+virtual void \hyperlink{classmain__savitch__14_1_1game_a98190a2bf784ce0f20533475754d136d}{whos\+Turn} ()=0
+\item 
+virtual \hyperlink{classmain__savitch__14_1_1game_a4fe20fb287f809ae2b68e28e4ccba634}{who} \hyperlink{classmain__savitch__14_1_1game_a081611c42aa66b4d91bbefeec47c7c4e}{winning} () const 
+\item 
+virtual void \hyperlink{classmain__savitch__14_1_1game_a20597d0caa907aea47b27fed8be3759b}{make\+\_\+move} (const std\+::string \&move)
+\item 
+virtual void \hyperlink{classmain__savitch__14_1_1game_ad521a7d78e7c163a0bc28b709f0d45fd}{restart} ()
+\item 
+virtual \hyperlink{classmain__savitch__14_1_1game}{game} $\ast$ \hyperlink{classmain__savitch__14_1_1game_a7b663057f59210dd52738facfc40d959}{clone} () const =0
+\item 
+virtual void \hyperlink{classmain__savitch__14_1_1game_a2c0c049f5861026d0f639b5837889b7a}{compute\+\_\+moves} (std\+::queue$<$ std\+::string $>$ \&moves) const =0
+\item 
+virtual void \hyperlink{classmain__savitch__14_1_1game_ac8205178922c49bab2865187e834b726}{display\+\_\+status} () const =0
+\item 
+virtual int \hyperlink{classmain__savitch__14_1_1game_a9b9c8c5e9aa57c9a430f20b87cb047aa}{evaluate} () const =0
+\item 
+virtual bool \hyperlink{classmain__savitch__14_1_1game_a49eed20648918b03fd3e2cf78987b3d1}{is\+\_\+game\+\_\+over} () const =0
+\item 
+virtual bool \hyperlink{classmain__savitch__14_1_1game_ad38351422ca1ee3ae58440c1c6b36b30}{is\+\_\+legal} (const std\+::string \&move) const =0
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classmain__savitch__14_1_1game_ac4c296f4370d8e5bb5ea74b638fb827d}{move\+\_\+number}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Enumeration Documentation}
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!who@{who}}
+\index{who@{who}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{who}{who}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf main\+\_\+savitch\+\_\+14\+::game\+::who}}\hypertarget{classmain__savitch__14_1_1game_a4fe20fb287f809ae2b68e28e4ccba634}{}\label{classmain__savitch__14_1_1game_a4fe20fb287f809ae2b68e28e4ccba634}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{H\+U\+M\+AN@{H\+U\+M\+AN}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!H\+U\+M\+AN@{H\+U\+M\+AN}}\item[{\em 
+H\+U\+M\+AN\hypertarget{classmain__savitch__14_1_1game_a4fe20fb287f809ae2b68e28e4ccba634ad1ab8515b7d878438d60ec785343b305}{}\label{classmain__savitch__14_1_1game_a4fe20fb287f809ae2b68e28e4ccba634ad1ab8515b7d878438d60ec785343b305}
+}]\index{N\+E\+U\+T\+R\+AL@{N\+E\+U\+T\+R\+AL}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!N\+E\+U\+T\+R\+AL@{N\+E\+U\+T\+R\+AL}}\item[{\em 
+N\+E\+U\+T\+R\+AL\hypertarget{classmain__savitch__14_1_1game_a4fe20fb287f809ae2b68e28e4ccba634af05e1639d5a0101703a1e178cf5ba666}{}\label{classmain__savitch__14_1_1game_a4fe20fb287f809ae2b68e28e4ccba634af05e1639d5a0101703a1e178cf5ba666}
+}]\index{C\+O\+M\+P\+U\+T\+ER@{C\+O\+M\+P\+U\+T\+ER}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!C\+O\+M\+P\+U\+T\+ER@{C\+O\+M\+P\+U\+T\+ER}}\item[{\em 
+C\+O\+M\+P\+U\+T\+ER\hypertarget{classmain__savitch__14_1_1game_a4fe20fb287f809ae2b68e28e4ccba634a983c07bd1a5606dd31a0fd6a6b86b36b}{}\label{classmain__savitch__14_1_1game_a4fe20fb287f809ae2b68e28e4ccba634a983c07bd1a5606dd31a0fd6a6b86b36b}
+}]\end{description}
+\end{Desc}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!game@{game}}
+\index{game@{game}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{game()}{game()}}]{\setlength{\rightskip}{0pt plus 5cm}main\+\_\+savitch\+\_\+14\+::game\+::game (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classmain__savitch__14_1_1game_a65afffa6f5aa8dcd781ad38f898130e0}{}\label{classmain__savitch__14_1_1game_a65afffa6f5aa8dcd781ad38f898130e0}
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!````~game@{$\sim$game}}
+\index{````~game@{$\sim$game}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{$\sim$game()}{~game()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual main\+\_\+savitch\+\_\+14\+::game\+::$\sim$game (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{classmain__savitch__14_1_1game_a5e8d21d1d658a12db6fddacca3490671}{}\label{classmain__savitch__14_1_1game_a5e8d21d1d658a12db6fddacca3490671}
+
+
+\subsection{Member Function Documentation}
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!clone@{clone}}
+\index{clone@{clone}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{clone() const =0}{clone() const =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf game}$\ast$ main\+\_\+savitch\+\_\+14\+::game\+::clone (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}\hypertarget{classmain__savitch__14_1_1game_a7b663057f59210dd52738facfc40d959}{}\label{classmain__savitch__14_1_1game_a7b663057f59210dd52738facfc40d959}
+
+
+Implemented in \hyperlink{classmain__savitch__14_1_1_othello_ab5a505f8a6ffd860376bf074c57e8a5f}{main\+\_\+savitch\+\_\+14\+::\+Othello}.
+
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!compute\+\_\+moves@{compute\+\_\+moves}}
+\index{compute\+\_\+moves@{compute\+\_\+moves}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{compute\+\_\+moves(std\+::queue$<$ std\+::string $>$ \&moves) const =0}{compute_moves(std::queue< std::string > &moves) const =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void main\+\_\+savitch\+\_\+14\+::game\+::compute\+\_\+moves (
+\begin{DoxyParamCaption}
+\item[{std\+::queue$<$ std\+::string $>$ \&}]{moves}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}\hypertarget{classmain__savitch__14_1_1game_a2c0c049f5861026d0f639b5837889b7a}{}\label{classmain__savitch__14_1_1game_a2c0c049f5861026d0f639b5837889b7a}
+
+
+Implemented in \hyperlink{classmain__savitch__14_1_1_othello_aae15562565348c574b8e4c0b7782d19f}{main\+\_\+savitch\+\_\+14\+::\+Othello}.
+
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!counting\+Pieces@{counting\+Pieces}}
+\index{counting\+Pieces@{counting\+Pieces}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{counting\+Pieces()=0}{countingPieces()=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void main\+\_\+savitch\+\_\+14\+::game\+::counting\+Pieces (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}\hypertarget{classmain__savitch__14_1_1game_a5954eccb6abf1ae900ad853ad2af99fa}{}\label{classmain__savitch__14_1_1game_a5954eccb6abf1ae900ad853ad2af99fa}
+
+
+Implemented in \hyperlink{classmain__savitch__14_1_1_othello_a19f49edfbe82b84922877e00bc854ed8}{main\+\_\+savitch\+\_\+14\+::\+Othello}.
+
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!display\+\_\+message@{display\+\_\+message}}
+\index{display\+\_\+message@{display\+\_\+message}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{display\+\_\+message(const std\+::string \&message) const }{display_message(const std::string &message) const }}]{\setlength{\rightskip}{0pt plus 5cm}void main\+\_\+savitch\+\_\+14\+::game\+::display\+\_\+message (
+\begin{DoxyParamCaption}
+\item[{const std\+::string \&}]{message}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{classmain__savitch__14_1_1game_ab8b87c3a1b68634861a8c0ed2b9f1992}{}\label{classmain__savitch__14_1_1game_ab8b87c3a1b68634861a8c0ed2b9f1992}
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!display\+\_\+status@{display\+\_\+status}}
+\index{display\+\_\+status@{display\+\_\+status}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{display\+\_\+status() const =0}{display_status() const =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void main\+\_\+savitch\+\_\+14\+::game\+::display\+\_\+status (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}\hypertarget{classmain__savitch__14_1_1game_ac8205178922c49bab2865187e834b726}{}\label{classmain__savitch__14_1_1game_ac8205178922c49bab2865187e834b726}
+
+
+Implemented in \hyperlink{classmain__savitch__14_1_1_othello_a471f0e8f0e63ed32d764682f60110267}{main\+\_\+savitch\+\_\+14\+::\+Othello}.
+
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!evaluate@{evaluate}}
+\index{evaluate@{evaluate}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{evaluate() const =0}{evaluate() const =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual int main\+\_\+savitch\+\_\+14\+::game\+::evaluate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}\hypertarget{classmain__savitch__14_1_1game_a9b9c8c5e9aa57c9a430f20b87cb047aa}{}\label{classmain__savitch__14_1_1game_a9b9c8c5e9aa57c9a430f20b87cb047aa}
+
+
+Implemented in \hyperlink{classmain__savitch__14_1_1_othello_a1b3239a14882cbc7e7bd44c0b6828514}{main\+\_\+savitch\+\_\+14\+::\+Othello}.
+
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!get\+\_\+user\+\_\+move@{get\+\_\+user\+\_\+move}}
+\index{get\+\_\+user\+\_\+move@{get\+\_\+user\+\_\+move}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{get\+\_\+user\+\_\+move() const }{get_user_move() const }}]{\setlength{\rightskip}{0pt plus 5cm}string main\+\_\+savitch\+\_\+14\+::game\+::get\+\_\+user\+\_\+move (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{classmain__savitch__14_1_1game_a1265f262f5a15bca5b532e6e97d13089}{}\label{classmain__savitch__14_1_1game_a1265f262f5a15bca5b532e6e97d13089}
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!is\+\_\+game\+\_\+over@{is\+\_\+game\+\_\+over}}
+\index{is\+\_\+game\+\_\+over@{is\+\_\+game\+\_\+over}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{is\+\_\+game\+\_\+over() const =0}{is_game_over() const =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool main\+\_\+savitch\+\_\+14\+::game\+::is\+\_\+game\+\_\+over (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}\hypertarget{classmain__savitch__14_1_1game_a49eed20648918b03fd3e2cf78987b3d1}{}\label{classmain__savitch__14_1_1game_a49eed20648918b03fd3e2cf78987b3d1}
+
+
+Implemented in \hyperlink{classmain__savitch__14_1_1_othello_a4387d20f953aab54025760ec3f72f7ca}{main\+\_\+savitch\+\_\+14\+::\+Othello}.
+
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!is\+\_\+legal@{is\+\_\+legal}}
+\index{is\+\_\+legal@{is\+\_\+legal}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{is\+\_\+legal(const std\+::string \&move) const =0}{is_legal(const std::string &move) const =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool main\+\_\+savitch\+\_\+14\+::game\+::is\+\_\+legal (
+\begin{DoxyParamCaption}
+\item[{const std\+::string \&}]{move}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}\hypertarget{classmain__savitch__14_1_1game_ad38351422ca1ee3ae58440c1c6b36b30}{}\label{classmain__savitch__14_1_1game_ad38351422ca1ee3ae58440c1c6b36b30}
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!last\+\_\+mover@{last\+\_\+mover}}
+\index{last\+\_\+mover@{last\+\_\+mover}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{last\+\_\+mover() const }{last_mover() const }}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf who} main\+\_\+savitch\+\_\+14\+::game\+::last\+\_\+mover (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{classmain__savitch__14_1_1game_a38d435da6aadc192ac10160b26ea0cc1}{}\label{classmain__savitch__14_1_1game_a38d435da6aadc192ac10160b26ea0cc1}
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!make\+\_\+move@{make\+\_\+move}}
+\index{make\+\_\+move@{make\+\_\+move}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{make\+\_\+move(const std\+::string \&move)}{make_move(const std::string &move)}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void main\+\_\+savitch\+\_\+14\+::game\+::make\+\_\+move (
+\begin{DoxyParamCaption}
+\item[{const std\+::string \&}]{move}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{classmain__savitch__14_1_1game_a20597d0caa907aea47b27fed8be3759b}{}\label{classmain__savitch__14_1_1game_a20597d0caa907aea47b27fed8be3759b}
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!moves\+\_\+completed@{moves\+\_\+completed}}
+\index{moves\+\_\+completed@{moves\+\_\+completed}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{moves\+\_\+completed() const }{moves_completed() const }}]{\setlength{\rightskip}{0pt plus 5cm}virtual int main\+\_\+savitch\+\_\+14\+::game\+::moves\+\_\+completed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{classmain__savitch__14_1_1game_aee677d1ef52c35474cb7c6071bb71749}{}\label{classmain__savitch__14_1_1game_aee677d1ef52c35474cb7c6071bb71749}
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!next\+\_\+mover@{next\+\_\+mover}}
+\index{next\+\_\+mover@{next\+\_\+mover}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{next\+\_\+mover() const }{next_mover() const }}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf who} main\+\_\+savitch\+\_\+14\+::game\+::next\+\_\+mover (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{classmain__savitch__14_1_1game_a0d445fdec3201c91c145ee2763e08922}{}\label{classmain__savitch__14_1_1game_a0d445fdec3201c91c145ee2763e08922}
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!opposite@{opposite}}
+\index{opposite@{opposite}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{opposite(who player) const }{opposite(who player) const }}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf who} main\+\_\+savitch\+\_\+14\+::game\+::opposite (
+\begin{DoxyParamCaption}
+\item[{{\bf who}}]{player}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{classmain__savitch__14_1_1game_ae38d001e92ebe46e1a1433e41446c7ab}{}\label{classmain__savitch__14_1_1game_ae38d001e92ebe46e1a1433e41446c7ab}
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!play@{play}}
+\index{play@{play}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{play()}{play()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf game\+::who} main\+\_\+savitch\+\_\+14\+::game\+::play (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classmain__savitch__14_1_1game_a4dbeaddb78059f7c5dcbf5cc4e026317}{}\label{classmain__savitch__14_1_1game_a4dbeaddb78059f7c5dcbf5cc4e026317}
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!restart@{restart}}
+\index{restart@{restart}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{restart()}{restart()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void main\+\_\+savitch\+\_\+14\+::game\+::restart (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{classmain__savitch__14_1_1game_ad521a7d78e7c163a0bc28b709f0d45fd}{}\label{classmain__savitch__14_1_1game_ad521a7d78e7c163a0bc28b709f0d45fd}
+
+
+Reimplemented in \hyperlink{classmain__savitch__14_1_1_othello_abf872b8074bfa4c04119317dc3b39af2}{main\+\_\+savitch\+\_\+14\+::\+Othello}.
+
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!whos\+Turn@{whos\+Turn}}
+\index{whos\+Turn@{whos\+Turn}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{whos\+Turn()=0}{whosTurn()=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void main\+\_\+savitch\+\_\+14\+::game\+::whos\+Turn (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}\hypertarget{classmain__savitch__14_1_1game_a98190a2bf784ce0f20533475754d136d}{}\label{classmain__savitch__14_1_1game_a98190a2bf784ce0f20533475754d136d}
+
+
+Implemented in \hyperlink{classmain__savitch__14_1_1_othello_a21440dbb4511812a76c578a5f546710b}{main\+\_\+savitch\+\_\+14\+::\+Othello}.
+
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!winning@{winning}}
+\index{winning@{winning}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{winning() const }{winning() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf game\+::who} main\+\_\+savitch\+\_\+14\+::game\+::winning (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{classmain__savitch__14_1_1game_a081611c42aa66b4d91bbefeec47c7c4e}{}\label{classmain__savitch__14_1_1game_a081611c42aa66b4d91bbefeec47c7c4e}
+
+
+Reimplemented in \hyperlink{classmain__savitch__14_1_1_othello_a8934d1b63f73c03dae9629dbe03955d7}{main\+\_\+savitch\+\_\+14\+::\+Othello}.
+
+
+
+\subsection{Member Data Documentation}
+\index{main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}!move\+\_\+number@{move\+\_\+number}}
+\index{move\+\_\+number@{move\+\_\+number}!main\+\_\+savitch\+\_\+14\+::game@{main\+\_\+savitch\+\_\+14\+::game}}
+\subsubsection[{\texorpdfstring{move\+\_\+number}{move_number}}]{\setlength{\rightskip}{0pt plus 5cm}int main\+\_\+savitch\+\_\+14\+::game\+::move\+\_\+number\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classmain__savitch__14_1_1game_ac4c296f4370d8e5bb5ea74b638fb827d}{}\label{classmain__savitch__14_1_1game_ac4c296f4370d8e5bb5ea74b638fb827d}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{game_8h}{game.\+h}\item 
+\hyperlink{game_8cc}{game.\+cc}\end{DoxyCompactItemize}

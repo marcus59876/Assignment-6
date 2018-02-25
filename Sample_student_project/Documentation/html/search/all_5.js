@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['game',['game',['../classmain__savitch__14_1_1game.html',1,'main_savitch_14']]],
-  ['game',['game',['../classmain__savitch__14_1_1game.html#a65afffa6f5aa8dcd781ad38f898130e0',1,'main_savitch_14::game']]],
-  ['game_2ecc',['game.cc',['../game_8cc.html',1,'']]],
-  ['game_2eh',['game.h',['../game_8h.html',1,'']]],
-  ['get_5fuser_5fmove',['get_user_move',['../classmain__savitch__14_1_1game.html#a1265f262f5a15bca5b532e6e97d13089',1,'main_savitch_14::game']]],
-  ['green',['GREEN',['../colors_8h.html#a6549a333ff1f3c45c95ec71167e8880e',1,'colors.h']]]
+  ['main',['main',['../main_8cc.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.cc']]],
+  ['main_2ecc',['main.cc',['../main_8cc.html',1,'']]],
+  ['main_5fsavitch_5f14',['main_savitch_14',['../namespacemain__savitch__14.html',1,'']]],
+  ['make_5fmove',['make_move',['../classmain__savitch__14_1_1game.html#a20597d0caa907aea47b27fed8be3759b',1,'main_savitch_14::game']]]
 ];

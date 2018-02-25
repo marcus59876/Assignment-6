@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['last_5fmover',['last_mover',['../classmain__savitch__14_1_1game.html#a38d435da6aadc192ac10160b26ea0cc1',1,'main_savitch_14::game']]]
+  ['play',['play',['../classmain__savitch__14_1_1game.html#a4dbeaddb78059f7c5dcbf5cc4e026317',1,'main_savitch_14::game']]]
 ];

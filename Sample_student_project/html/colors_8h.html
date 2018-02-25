@@ -8,6 +8,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -65,6 +73,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals.html"><span>File&#160;Members</span></a></li>
     </ul>
   </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('colors_8h.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -79,7 +102,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#var-members">Variables</a>  </div>
@@ -161,6 +183,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00053">53</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a12493b53c578b10f6ac7fb4fff822472"></a>
@@ -172,6 +196,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00057">57</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
 
 </div>
 </div>
@@ -185,6 +211,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00059">59</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a9023d5f8d4bf0e39b6ef54e2d6888863"></a>
@@ -196,6 +224,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00055">55</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
 
 </div>
 </div>
@@ -209,6 +239,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00058">58</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a12572515d966d90633657c99f6300e03"></a>
@@ -220,6 +252,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00054">54</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
 
 </div>
 </div>
@@ -233,6 +267,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00060">60</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a9b4c96d1d0919586a328a3d580e58830"></a>
@@ -244,6 +280,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00056">56</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
 
 </div>
 </div>
@@ -257,6 +295,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00044">44</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a9562e6e41280ad44e5adc8ea9cc660ff"></a>
@@ -268,6 +308,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00033">33</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
 
 </div>
 </div>
@@ -281,6 +323,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00048">48</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ac32dcda04e8d51eb8ce1941343eac22d"></a>
@@ -292,6 +336,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00038">38</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
 
 </div>
 </div>
@@ -305,6 +351,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00050">50</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ac0c5b89ada2846866beff79078de7388"></a>
@@ -316,6 +364,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00041">41</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
 
 </div>
 </div>
@@ -329,6 +379,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00046">46</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a48340d44e6645ed7c5e121bef55b5e58"></a>
@@ -340,6 +392,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00049">49</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
 
 </div>
 </div>
@@ -353,6 +407,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00042">42</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ab84a8b06714421dcae7acf288a7b61a0"></a>
@@ -364,6 +420,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00045">45</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
 
 </div>
 </div>
@@ -377,6 +435,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00040">40</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ac639b0e3351dfef17f4ec2bdb6064909"></a>
@@ -388,6 +448,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00051">51</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
 
 </div>
 </div>
@@ -401,14 +463,20 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="colors_8h_source.html#l00047">47</a> of file <a class="el" href="colors_8h_source.html">colors.h</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.11
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="colors_8h.html">colors.h</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
 </body>
 </html>

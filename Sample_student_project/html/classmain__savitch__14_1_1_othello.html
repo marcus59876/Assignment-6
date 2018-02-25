@@ -8,6 +8,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -67,6 +75,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classmain__savitch__14_1_1_othello.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -81,11 +104,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="namespacemain__savitch__14.html">main_savitch_14</a></li><li class="navelem"><a class="el" href="classmain__savitch__14_1_1_othello.html">Othello</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -102,13 +120,13 @@ Inheritance diagram for main_savitch_14::Othello:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmain__savitch__14_1_1_othello__inherit__graph.png" border="0" usemap="#main__savitch__14_1_1_othello_inherit__map" alt="Inheritance graph"/></div>
 <!-- MAP 0 -->
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for main_savitch_14::Othello:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmain__savitch__14_1_1_othello__coll__graph.png" border="0" usemap="#main__savitch__14_1_1_othello_coll__map" alt="Collaboration graph"/></div>
 <!-- MAP 1 -->
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -190,7 +208,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ad38351422ca1ee3ae58440c1c6b36b30 inherit pro_methods_classmain__savitch__14_1_1game"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmain__savitch__14_1_1game.html#ad38351422ca1ee3ae58440c1c6b36b30">is_legal</a> (const std::string &amp;move) const =0</td></tr>
 <tr class="separator:ad38351422ca1ee3ae58440c1c6b36b30 inherit pro_methods_classmain__savitch__14_1_1game"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p>Definition at line <a class="el" href="othello_8h_source.html#l00017">17</a> of file <a class="el" href="othello_8h_source.html">othello.h</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a240d83489f3c1a1148c4424612d9679a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -211,6 +232,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="othello_8h_source.html#l00020">20</a> of file <a class="el" href="othello_8h_source.html">othello.h</a>.</p>
 
 </div>
 </div>
@@ -238,6 +261,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classmain__savitch__14_1_1game.html#a7b663057f59210dd52738facfc40d959">main_savitch_14::game</a>.</p>
 
+<p>Definition at line <a class="el" href="othello_8h_source.html#l00031">31</a> of file <a class="el" href="othello_8h_source.html">othello.h</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="aae15562565348c574b8e4c0b7782d19f"></a>
@@ -264,6 +289,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classmain__savitch__14_1_1game.html#a2c0c049f5861026d0f639b5837889b7a">main_savitch_14::game</a>.</p>
 
+<p>Definition at line <a class="el" href="othello_8cc_source.html#l00459">459</a> of file <a class="el" href="othello_8cc_source.html">othello.cc</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a19f49edfbe82b84922877e00bc854ed8"></a>
@@ -288,6 +315,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="classmain__savitch__14_1_1game.html#a5954eccb6abf1ae900ad853ad2af99fa">main_savitch_14::game</a>.</p>
+
+<p>Definition at line <a class="el" href="othello_8cc_source.html#l00383">383</a> of file <a class="el" href="othello_8cc_source.html">othello.cc</a>.</p>
 
 </div>
 </div>
@@ -314,6 +343,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classmain__savitch__14_1_1game.html#ac8205178922c49bab2865187e834b726">main_savitch_14::game</a>.</p>
 
+<p>Definition at line <a class="el" href="othello_8cc_source.html#l00011">11</a> of file <a class="el" href="othello_8cc_source.html">othello.cc</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a1b3239a14882cbc7e7bd44c0b6828514"></a>
@@ -338,6 +369,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="classmain__savitch__14_1_1game.html#a9b9c8c5e9aa57c9a430f20b87cb047aa">main_savitch_14::game</a>.</p>
+
+<p>Definition at line <a class="el" href="othello_8cc_source.html#l00440">440</a> of file <a class="el" href="othello_8cc_source.html">othello.cc</a>.</p>
 
 </div>
 </div>
@@ -364,6 +397,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classmain__savitch__14_1_1game.html#a49eed20648918b03fd3e2cf78987b3d1">main_savitch_14::game</a>.</p>
 
+<p>Definition at line <a class="el" href="othello_8cc_source.html#l00403">403</a> of file <a class="el" href="othello_8cc_source.html">othello.cc</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ab4fb0040d5e1dbe34c33fa11a82285cf"></a>
@@ -379,6 +414,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="othello_8cc_source.html#l00206">206</a> of file <a class="el" href="othello_8cc_source.html">othello.cc</a>.</p>
 
 </div>
 </div>
@@ -396,6 +433,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="othello_8cc_source.html#l00051">51</a> of file <a class="el" href="othello_8cc_source.html">othello.cc</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a3177234195a490eef52343d957e64b5d"></a>
@@ -410,6 +449,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="othello_8cc_source.html#l00424">424</a> of file <a class="el" href="othello_8cc_source.html">othello.cc</a>.</p>
 
 </div>
 </div>
@@ -436,6 +477,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classmain__savitch__14_1_1game.html#ad521a7d78e7c163a0bc28b709f0d45fd">main_savitch_14::game</a>.</p>
 
+<p>Definition at line <a class="el" href="othello_8cc_source.html#l00193">193</a> of file <a class="el" href="othello_8cc_source.html">othello.cc</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a21440dbb4511812a76c578a5f546710b"></a>
@@ -460,6 +503,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="classmain__savitch__14_1_1game.html#a98190a2bf784ce0f20533475754d136d">main_savitch_14::game</a>.</p>
+
+<p>Definition at line <a class="el" href="othello_8cc_source.html#l00414">414</a> of file <a class="el" href="othello_8cc_source.html">othello.cc</a>.</p>
 
 </div>
 </div>
@@ -486,6 +531,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classmain__savitch__14_1_1game.html#a081611c42aa66b4d91bbefeec47c7c4e">main_savitch_14::game</a>.</p>
 
+<p>Definition at line <a class="el" href="othello_8cc_source.html#l00428">428</a> of file <a class="el" href="othello_8cc_source.html">othello.cc</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -507,6 +554,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="othello_8h_source.html#l00040">40</a> of file <a class="el" href="othello_8h_source.html">othello.h</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a2eed818925f68d5678b78107a3298138"></a>
@@ -526,6 +575,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="othello_8h_source.html#l00036">36</a> of file <a class="el" href="othello_8h_source.html">othello.h</a>.</p>
 
 </div>
 </div>
@@ -547,6 +598,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="othello_8h_source.html#l00039">39</a> of file <a class="el" href="othello_8h_source.html">othello.h</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a85d4ce17512d8dbf85a313a27eea0644"></a>
@@ -566,6 +619,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="othello_8h_source.html#l00038">38</a> of file <a class="el" href="othello_8h_source.html">othello.h</a>.</p>
 
 </div>
 </div>
@@ -587,6 +642,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="othello_8h_source.html#l00041">41</a> of file <a class="el" href="othello_8h_source.html">othello.h</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a7d5f59b1e581ed7a8145debeecf4f310"></a>
@@ -607,18 +664,24 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="othello_8h_source.html#l00037">37</a> of file <a class="el" href="othello_8h_source.html">othello.h</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="othello_8h_source.html">othello.h</a></li>
-<li><a class="el" href="othello_8cc.html">othello.cc</a></li>
+<li><a class="el" href="othello_8cc_source.html">othello.cc</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.11
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemain__savitch__14.html">main_savitch_14</a></li><li class="navelem"><a class="el" href="classmain__savitch__14_1_1_othello.html">Othello</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
 </body>
 </html>

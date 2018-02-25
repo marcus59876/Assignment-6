@@ -15,7 +15,7 @@ othello.o: othello.cc othello.h piece.h colors.h
 	g++ -c othello.cc
 
 clean: 
-	rm -rf *o a.out archive1.tar
+	rm -rf *o a.out archive1.tar 
 
 archive: 
 	tar -cvf archive1.tar ../

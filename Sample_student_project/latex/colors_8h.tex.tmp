@@ -56,6 +56,7 @@ const string \hyperlink{colors_8h_ad62ca058a65d5bbc1d175cc7ab7ffea0}{B\+\_\+\+W\
 \index{colors.\+h@{colors.\+h}!B\+\_\+\+B\+L\+A\+CK@{B\+\_\+\+B\+L\+A\+CK}}
 \index{B\+\_\+\+B\+L\+A\+CK@{B\+\_\+\+B\+L\+A\+CK}!colors.\+h@{colors.\+h}}
 \subsubsection[{\texorpdfstring{B\+\_\+\+B\+L\+A\+CK}{B_BLACK}}]{\setlength{\rightskip}{0pt plus 5cm}const string B\+\_\+\+B\+L\+A\+CK = \char`\"{}\textbackslash{}e\mbox{[}40m\char`\"{}}\hypertarget{colors_8h_a65541869376e50d314dd8267c9f770af}{}\label{colors_8h_a65541869376e50d314dd8267c9f770af}
+<<<<<<< HEAD
 
 
 Definition at line 53 of file colors.\+h.
@@ -200,3 +201,65 @@ Definition at line 51 of file colors.\+h.
 
 Definition at line 47 of file colors.\+h.
 
+=======
+\index{colors.\+h@{colors.\+h}!B\+\_\+\+B\+L\+UE@{B\+\_\+\+B\+L\+UE}}
+\index{B\+\_\+\+B\+L\+UE@{B\+\_\+\+B\+L\+UE}!colors.\+h@{colors.\+h}}
+\subsubsection[{\texorpdfstring{B\+\_\+\+B\+L\+UE}{B_BLUE}}]{\setlength{\rightskip}{0pt plus 5cm}const string B\+\_\+\+B\+L\+UE = \char`\"{}\textbackslash{}e\mbox{[}44m\char`\"{}}\hypertarget{colors_8h_a12493b53c578b10f6ac7fb4fff822472}{}\label{colors_8h_a12493b53c578b10f6ac7fb4fff822472}
+\index{colors.\+h@{colors.\+h}!B\+\_\+\+C\+Y\+AN@{B\+\_\+\+C\+Y\+AN}}
+\index{B\+\_\+\+C\+Y\+AN@{B\+\_\+\+C\+Y\+AN}!colors.\+h@{colors.\+h}}
+\subsubsection[{\texorpdfstring{B\+\_\+\+C\+Y\+AN}{B_CYAN}}]{\setlength{\rightskip}{0pt plus 5cm}const string B\+\_\+\+C\+Y\+AN = \char`\"{}\textbackslash{}e\mbox{[}46m\char`\"{}}\hypertarget{colors_8h_a9c4984eb3a7b154d773c1bcb2af612ec}{}\label{colors_8h_a9c4984eb3a7b154d773c1bcb2af612ec}
+\index{colors.\+h@{colors.\+h}!B\+\_\+\+G\+R\+E\+EN@{B\+\_\+\+G\+R\+E\+EN}}
+\index{B\+\_\+\+G\+R\+E\+EN@{B\+\_\+\+G\+R\+E\+EN}!colors.\+h@{colors.\+h}}
+\subsubsection[{\texorpdfstring{B\+\_\+\+G\+R\+E\+EN}{B_GREEN}}]{\setlength{\rightskip}{0pt plus 5cm}const string B\+\_\+\+G\+R\+E\+EN = \char`\"{}\textbackslash{}e\mbox{[}42m\char`\"{}}\hypertarget{colors_8h_a9023d5f8d4bf0e39b6ef54e2d6888863}{}\label{colors_8h_a9023d5f8d4bf0e39b6ef54e2d6888863}
+\index{colors.\+h@{colors.\+h}!B\+\_\+\+M\+A\+G\+E\+N\+TA@{B\+\_\+\+M\+A\+G\+E\+N\+TA}}
+\index{B\+\_\+\+M\+A\+G\+E\+N\+TA@{B\+\_\+\+M\+A\+G\+E\+N\+TA}!colors.\+h@{colors.\+h}}
+\subsubsection[{\texorpdfstring{B\+\_\+\+M\+A\+G\+E\+N\+TA}{B_MAGENTA}}]{\setlength{\rightskip}{0pt plus 5cm}const string B\+\_\+\+M\+A\+G\+E\+N\+TA = \char`\"{}\textbackslash{}e\mbox{[}45m\char`\"{}}\hypertarget{colors_8h_a9b9426505c2c8ee334c31cdf16dfbb7e}{}\label{colors_8h_a9b9426505c2c8ee334c31cdf16dfbb7e}
+\index{colors.\+h@{colors.\+h}!B\+\_\+\+R\+ED@{B\+\_\+\+R\+ED}}
+\index{B\+\_\+\+R\+ED@{B\+\_\+\+R\+ED}!colors.\+h@{colors.\+h}}
+\subsubsection[{\texorpdfstring{B\+\_\+\+R\+ED}{B_RED}}]{\setlength{\rightskip}{0pt plus 5cm}const string B\+\_\+\+R\+ED = \char`\"{}\textbackslash{}e\mbox{[}41m\char`\"{}}\hypertarget{colors_8h_a12572515d966d90633657c99f6300e03}{}\label{colors_8h_a12572515d966d90633657c99f6300e03}
+\index{colors.\+h@{colors.\+h}!B\+\_\+\+W\+H\+I\+TE@{B\+\_\+\+W\+H\+I\+TE}}
+\index{B\+\_\+\+W\+H\+I\+TE@{B\+\_\+\+W\+H\+I\+TE}!colors.\+h@{colors.\+h}}
+\subsubsection[{\texorpdfstring{B\+\_\+\+W\+H\+I\+TE}{B_WHITE}}]{\setlength{\rightskip}{0pt plus 5cm}const string B\+\_\+\+W\+H\+I\+TE = \char`\"{}\textbackslash{}e\mbox{[}47m\char`\"{}}\hypertarget{colors_8h_ad62ca058a65d5bbc1d175cc7ab7ffea0}{}\label{colors_8h_ad62ca058a65d5bbc1d175cc7ab7ffea0}
+\index{colors.\+h@{colors.\+h}!B\+\_\+\+Y\+E\+L\+L\+OW@{B\+\_\+\+Y\+E\+L\+L\+OW}}
+\index{B\+\_\+\+Y\+E\+L\+L\+OW@{B\+\_\+\+Y\+E\+L\+L\+OW}!colors.\+h@{colors.\+h}}
+\subsubsection[{\texorpdfstring{B\+\_\+\+Y\+E\+L\+L\+OW}{B_YELLOW}}]{\setlength{\rightskip}{0pt plus 5cm}const string B\+\_\+\+Y\+E\+L\+L\+OW = \char`\"{}\textbackslash{}e\mbox{[}43m\char`\"{}}\hypertarget{colors_8h_a9b4c96d1d0919586a328a3d580e58830}{}\label{colors_8h_a9b4c96d1d0919586a328a3d580e58830}
+\index{colors.\+h@{colors.\+h}!B\+L\+A\+CK@{B\+L\+A\+CK}}
+\index{B\+L\+A\+CK@{B\+L\+A\+CK}!colors.\+h@{colors.\+h}}
+\subsubsection[{\texorpdfstring{B\+L\+A\+CK}{BLACK}}]{\setlength{\rightskip}{0pt plus 5cm}const string B\+L\+A\+CK = \char`\"{}\textbackslash{}e\mbox{[}30m\char`\"{}}\hypertarget{colors_8h_abb21f63a6ab9c6a1840c572b477d9217}{}\label{colors_8h_abb21f63a6ab9c6a1840c572b477d9217}
+\index{colors.\+h@{colors.\+h}!B\+L\+I\+NK@{B\+L\+I\+NK}}
+\index{B\+L\+I\+NK@{B\+L\+I\+NK}!colors.\+h@{colors.\+h}}
+\subsubsection[{\texorpdfstring{B\+L\+I\+NK}{BLINK}}]{\setlength{\rightskip}{0pt plus 5cm}const string B\+L\+I\+NK = \char`\"{}\textbackslash{}e\mbox{[}5m\char`\"{}}\hypertarget{colors_8h_a9562e6e41280ad44e5adc8ea9cc660ff}{}\label{colors_8h_a9562e6e41280ad44e5adc8ea9cc660ff}
+\index{colors.\+h@{colors.\+h}!B\+L\+UE@{B\+L\+UE}}
+\index{B\+L\+UE@{B\+L\+UE}!colors.\+h@{colors.\+h}}
+\subsubsection[{\texorpdfstring{B\+L\+UE}{BLUE}}]{\setlength{\rightskip}{0pt plus 5cm}const string B\+L\+UE = \char`\"{}\textbackslash{}e\mbox{[}34m\char`\"{}}\hypertarget{colors_8h_a99c5c15cb598940d80f857dba62040a5}{}\label{colors_8h_a99c5c15cb598940d80f857dba62040a5}
+\index{colors.\+h@{colors.\+h}!B\+O\+LD@{B\+O\+LD}}
+\index{B\+O\+LD@{B\+O\+LD}!colors.\+h@{colors.\+h}}
+\subsubsection[{\texorpdfstring{B\+O\+LD}{BOLD}}]{\setlength{\rightskip}{0pt plus 5cm}const string B\+O\+LD = \char`\"{}\textbackslash{}e\mbox{[}1m\char`\"{}}\hypertarget{colors_8h_ac32dcda04e8d51eb8ce1941343eac22d}{}\label{colors_8h_ac32dcda04e8d51eb8ce1941343eac22d}
+\index{colors.\+h@{colors.\+h}!C\+Y\+AN@{C\+Y\+AN}}
+\index{C\+Y\+AN@{C\+Y\+AN}!colors.\+h@{colors.\+h}}
+\subsubsection[{\texorpdfstring{C\+Y\+AN}{CYAN}}]{\setlength{\rightskip}{0pt plus 5cm}const string C\+Y\+AN = \char`\"{}\textbackslash{}e\mbox{[}36m\char`\"{}}\hypertarget{colors_8h_a9d1a2e31c30e2e054682627a6e40ed59}{}\label{colors_8h_a9d1a2e31c30e2e054682627a6e40ed59}
+\index{colors.\+h@{colors.\+h}!E\+R\+R\+OR@{E\+R\+R\+OR}}
+\index{E\+R\+R\+OR@{E\+R\+R\+OR}!colors.\+h@{colors.\+h}}
+\subsubsection[{\texorpdfstring{E\+R\+R\+OR}{ERROR}}]{\setlength{\rightskip}{0pt plus 5cm}const string E\+R\+R\+OR = \char`\"{}\textbackslash{}e\mbox{[}1;41;37m\textbackslash{}a\char`\"{}}\hypertarget{colors_8h_ac0c5b89ada2846866beff79078de7388}{}\label{colors_8h_ac0c5b89ada2846866beff79078de7388}
+\index{colors.\+h@{colors.\+h}!G\+R\+E\+EN@{G\+R\+E\+EN}}
+\index{G\+R\+E\+EN@{G\+R\+E\+EN}!colors.\+h@{colors.\+h}}
+\subsubsection[{\texorpdfstring{G\+R\+E\+EN}{GREEN}}]{\setlength{\rightskip}{0pt plus 5cm}const string G\+R\+E\+EN = \char`\"{}\textbackslash{}e\mbox{[}32m\char`\"{}}\hypertarget{colors_8h_a6549a333ff1f3c45c95ec71167e8880e}{}\label{colors_8h_a6549a333ff1f3c45c95ec71167e8880e}
+\index{colors.\+h@{colors.\+h}!M\+A\+G\+E\+N\+TA@{M\+A\+G\+E\+N\+TA}}
+\index{M\+A\+G\+E\+N\+TA@{M\+A\+G\+E\+N\+TA}!colors.\+h@{colors.\+h}}
+\subsubsection[{\texorpdfstring{M\+A\+G\+E\+N\+TA}{MAGENTA}}]{\setlength{\rightskip}{0pt plus 5cm}const string M\+A\+G\+E\+N\+TA = \char`\"{}\textbackslash{}e\mbox{[}35m\char`\"{}}\hypertarget{colors_8h_a48340d44e6645ed7c5e121bef55b5e58}{}\label{colors_8h_a48340d44e6645ed7c5e121bef55b5e58}
+\index{colors.\+h@{colors.\+h}!M\+E\+NU@{M\+E\+NU}}
+\index{M\+E\+NU@{M\+E\+NU}!colors.\+h@{colors.\+h}}
+\subsubsection[{\texorpdfstring{M\+E\+NU}{MENU}}]{\setlength{\rightskip}{0pt plus 5cm}const string M\+E\+NU = \char`\"{}\textbackslash{}e\mbox{[}44;37m\char`\"{}}\hypertarget{colors_8h_a8877b07854dc51c0754aa2479f5847e4}{}\label{colors_8h_a8877b07854dc51c0754aa2479f5847e4}
+\index{colors.\+h@{colors.\+h}!R\+ED@{R\+ED}}
+\index{R\+ED@{R\+ED}!colors.\+h@{colors.\+h}}
+\subsubsection[{\texorpdfstring{R\+ED}{RED}}]{\setlength{\rightskip}{0pt plus 5cm}const string R\+ED = \char`\"{}\textbackslash{}e\mbox{[}31m\char`\"{}}\hypertarget{colors_8h_ab84a8b06714421dcae7acf288a7b61a0}{}\label{colors_8h_ab84a8b06714421dcae7acf288a7b61a0}
+\index{colors.\+h@{colors.\+h}!R\+E\+S\+ET@{R\+E\+S\+ET}}
+\index{R\+E\+S\+ET@{R\+E\+S\+ET}!colors.\+h@{colors.\+h}}
+\subsubsection[{\texorpdfstring{R\+E\+S\+ET}{RESET}}]{\setlength{\rightskip}{0pt plus 5cm}const string R\+E\+S\+ET = \char`\"{}\textbackslash{}e\mbox{[}0m\char`\"{}}\hypertarget{colors_8h_a9a31596d4859c8ad599295239748e3dc}{}\label{colors_8h_a9a31596d4859c8ad599295239748e3dc}
+\index{colors.\+h@{colors.\+h}!W\+H\+I\+TE@{W\+H\+I\+TE}}
+\index{W\+H\+I\+TE@{W\+H\+I\+TE}!colors.\+h@{colors.\+h}}
+\subsubsection[{\texorpdfstring{W\+H\+I\+TE}{WHITE}}]{\setlength{\rightskip}{0pt plus 5cm}const string W\+H\+I\+TE = \char`\"{}\textbackslash{}e\mbox{[}37m\char`\"{}}\hypertarget{colors_8h_ac639b0e3351dfef17f4ec2bdb6064909}{}\label{colors_8h_ac639b0e3351dfef17f4ec2bdb6064909}
+\index{colors.\+h@{colors.\+h}!Y\+E\+L\+L\+OW@{Y\+E\+L\+L\+OW}}
+\index{Y\+E\+L\+L\+OW@{Y\+E\+L\+L\+OW}!colors.\+h@{colors.\+h}}
+\subsubsection[{\texorpdfstring{Y\+E\+L\+L\+OW}{YELLOW}}]{\setlength{\rightskip}{0pt plus 5cm}const string Y\+E\+L\+L\+OW = \char`\"{}\textbackslash{}e\mbox{[}33m\char`\"{}}\hypertarget{colors_8h_a1f7a26bd4f473d811093b8b0be1ca753}{}\label{colors_8h_a1f7a26bd4f473d811093b8b0be1ca753}
+>>>>>>> 731e3373baaf3f8b497d3ebf8294d88f708cd837

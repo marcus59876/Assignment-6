@@ -1,5 +1,6 @@
 // File: game.cxx
 
+<<<<<<< HEAD
 /**
 * File name: game.cc 
 * Names: Lydia Shiffler, Marcus McKinley, Josh Wright, Eric Hahn
@@ -9,6 +10,8 @@
 
 
 
+=======
+>>>>>>> 731e3373baaf3f8b497d3ebf8294d88f708cd837
 #include <cassert>    // Provides assert
 #include <climits>    // Provides INT_MAX and INT_MIN
 #include <iostream>   // Provides cin, cout
@@ -26,11 +29,18 @@ namespace main_savitch_14
 //*************************************************************************
 // PUBLIC MEMBER FUNCTIONS
 
+<<<<<<< HEAD
 /** The play function should not be overridden. It plays one round of the
 * game, with the human player moving first and the computer second.
 * The return value is the winner of the game (or NEUTRAL for a tie).
 */
 game::who game::play( )
+=======
+game::who game::play( )
+// The play function should not be overridden. It plays one round of the
+// game, with the human player moving first and the computer second.
+// The return value is the winner of the game (or NEUTRAL for a tie).
+>>>>>>> 731e3373baaf3f8b497d3ebf8294d88f708cd837
 {
 	restart( );
 
@@ -55,15 +65,21 @@ game::who game::play( )
 //*************************************************************************
 // OPTIONAL VIRTUAL FUNCTIONS (overriding these functions is optional)
 
+<<<<<<< HEAD
 ///display_message displays the message from the game
+=======
+>>>>>>> 731e3373baaf3f8b497d3ebf8294d88f708cd837
 void game::display_message(const string& message) const
 {
 	cout << message;
 }
 
+<<<<<<< HEAD
 /**get_user_move displays a message to either tell the user to press S if *he/she cannot move, or tells them that it is their move
 */
 
+=======
+>>>>>>> 731e3373baaf3f8b497d3ebf8294d88f708cd837
 string game::get_user_move( ) const
 {
 	string answer;
@@ -73,7 +89,11 @@ string game::get_user_move( ) const
 	getline(cin, answer);
 	return answer;
 }
+<<<<<<< HEAD
 ///Winning returns the user that is winning
+=======
+
+>>>>>>> 731e3373baaf3f8b497d3ebf8294d88f708cd837
 game::who game::winning()const {
 
 	int value = evaluate();
@@ -92,6 +112,7 @@ game::who game::winning()const {
 // PRIVATE FUNCTIONS (these are the same for every game)
 
 int game::eval_with_lookahead(int look_ahead, int beat_this)
+<<<<<<< HEAD
 /// Evaluate a board position with lookahead.
 /// --int look_aheads:  How deep the lookahead should go to evaluate the move.
 
@@ -106,6 +127,21 @@ int game::eval_with_lookahead(int look_ahead, int beat_this)
 	game* future;          /// Pointer to a future version of this game
 
 	/// Base case:
+=======
+// Evaluate a board position with lookahead.
+// --int look_aheads:  How deep the lookahead should go to evaluate the move.
+// --int beat_this: Value of another move that we're considering. If the
+// current board position can't beat this, then cut it short.
+// The return value is large if the position is good for the player who just
+// moved.
+{
+	queue<string> moves;   // All possible opponent moves
+	int value;             // Value of a board position after opponent moves
+	int best_value;        // Evaluation of best opponent move
+	game* future;          // Pointer to a future version of this game
+
+	// Base case:
+>>>>>>> 731e3373baaf3f8b497d3ebf8294d88f708cd837
 	if (look_ahead == 0 || is_game_over( ))
 	{
 		if (last_mover( ) == COMPUTER)
@@ -114,11 +150,19 @@ int game::eval_with_lookahead(int look_ahead, int beat_this)
 			return -evaluate( );
 	}
 
+<<<<<<< HEAD
 	/// Recursive case:
 	/// The level is above 0, so try all possible opponent moves. Keep the
 	/// value of the best of these moves from the opponent's perspective.
 	compute_moves(moves);
 	/// assert(!moves.empty( ));
+=======
+	// Recursive case:
+	// The level is above 0, so try all possible opponent moves. Keep the
+	// value of the best of these moves from the opponent's perspective.
+	compute_moves(moves);
+	// assert(!moves.empty( ));
+>>>>>>> 731e3373baaf3f8b497d3ebf8294d88f708cd837
 	best_value = INT_MIN;
 	while (!moves.empty( ))
 	{
@@ -135,12 +179,20 @@ int game::eval_with_lookahead(int look_ahead, int beat_this)
 		moves.pop( );
 	}
 
+<<<<<<< HEAD
 	/// The value was calculated from the opponent's perspective.
 	/// The answer we return should be from player's perspective, so multiply times -1:
 	return -best_value;
 }
 
 ///make_computer_move decides where the computer makes its next moves
+=======
+	// The value was calculated from the opponent's perspective.
+	// The answer we return should be from player's perspective, so multiply times -1:
+	return -best_value;
+}
+
+>>>>>>> 731e3373baaf3f8b497d3ebf8294d88f708cd837
 void game::make_computer_move( )
 {
 	queue<string> moves;
@@ -149,12 +201,21 @@ void game::make_computer_move( )
 	string best_move;
 	game* future;
 
+<<<<<<< HEAD
 	/// Compute all legal moves that the computer could make.
 	compute_moves(moves);
 	/// assert(!moves.empty( ));
 
 	/// Evaluate each possible legal move, saving the index of the best
 	/// in best_index and saving its value in best_value.
+=======
+	// Compute all legal moves that the computer could make.
+	compute_moves(moves);
+	//assert(!moves.empty( ));
+
+	// Evaluate each possible legal move, saving the index of the best
+	// in best_index and saving its value in best_value.
+>>>>>>> 731e3373baaf3f8b497d3ebf8294d88f708cd837
 	best_value = INT_MIN;
 	while (!moves.empty( ))
 	{
@@ -170,12 +231,19 @@ void game::make_computer_move( )
 		moves.pop( );
 	}
 
+<<<<<<< HEAD
 	/// Make the best move.
 	make_move(best_move);
 }
 
 ///make_human_move decides if the move is legal/illegal. If its legal it makes the move 
 
+=======
+	// Make the best move.
+	make_move(best_move);
+}
+
+>>>>>>> 731e3373baaf3f8b497d3ebf8294d88f708cd837
 void game::make_human_move( ) {
 	string move;
 

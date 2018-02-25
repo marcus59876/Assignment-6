@@ -4,5 +4,9 @@ digraph "main_savitch_14::game"
   node [fontname="Helvetica",fontsize="10",shape=record];
   Node1 [label="main_savitch_14::game",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+<<<<<<< HEAD
   Node2 [label="main_savitch_14::Othello",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain__savitch__14_1_1Othello.html"];
+=======
+  Node2 [label="main_savitch_14::Othello",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain__savitch__14_1_1_othello.html"];
+>>>>>>> 731e3373baaf3f8b497d3ebf8294d88f708cd837
 }

@@ -1,0 +1,214 @@
+  299  git clone https://github.com/marcus59876/Assignment-6.git
+  300  git add README.md
+  301  gedit README.md
+  302  git add README.md
+  303  git commit
+  304  git push
+  305  git remote add origin https://github.com/marcus59876/Assignment-6.git
+  306  git push -u origin master
+  307  git add .
+  308  git commit
+  309  git add .
+  310  git commit
+  311  cd Assignment-6
+  312  git add .
+  313  git commit
+  314  git push
+  315  git pull
+  316  git add .
+  317  git commit
+  318  git push
+  319  cd Sample_student_project
+  320  gedit Makefile
+  321  make all
+  322  ls
+  323  make clean
+  324  ls
+  325  git add .
+  326  git commit
+  327  .gitignore
+  328  git tag
+  329  git tag "v1.SourceReady"
+  330  git tag
+  331  git push --tags
+  332  cd ../..
+  333  git clone https://github.com/doxygen/doxygen.git
+  334  cd doxygen
+  335  mkdir build
+  336  cd build
+  337  cmake -G "Unix Makefiles" ..
+  338  sudo apt install cmake
+  339  mkdir build
+  340  cd build
+  341  cmake -G "Unix Makefiles" ..
+  342  make
+  343  cmake -G "Unix Makefiles" ..
+  344  make install
+  345  cd ../..
+  346  cd cs3610
+  347  ls
+  348  cd projects
+  349  mkdir project2
+  350  cd project2
+  351  cd ../..
+  352  ls
+  353  cd ../..
+  354  ls
+  355  cd home
+  356  ls
+  357  cd marcus
+  358  cd 
+  359  ls
+  360  cd cs3560
+  361  ls
+  362  cd Assignment-6
+  363  cd ..
+  364  cd doxygen
+  365  cmake -G "Unix Makefiles" ..
+  366  cd ..
+  367  cmake -G "Unix Makefiles" ..
+  368  cd doxygen
+  369  ls
+  370  cmake -G "Unix Makefiles" ..
+  371  make
+  372  make install
+  373  cd ..
+  374  make
+  375  make install
+  376  cd doxygen
+  377  /a
+  378  \a
+  379  make
+  380  doxygen -g <config-file>
+  381  cd doxygen-$VERSION
+  382  INSTALL
+  383  install
+  384  make
+  385  sudo apt-get install doxygen
+  386  make
+  387  ls
+  388  \a
+  389  doxygen help
+  390  \addindx
+  391  \addindex
+  392  doxygen -s marcus
+  393  -v
+  394  ls
+  395  tree
+  396  sudo apt install tree
+  397  tree
+  398  mkdir doc
+  399  cd ..
+  400  cd Sample_student_project
+  401  mkdir doc
+  402  cd doc
+  403  cd doc/
+  404  cd ..
+  405  cd doc/
+  406  doxygen -g
+  407  gedit main.cc
+  408  doxygen
+  409  ls
+  410  make
+  411  install
+  412  install --help
+  413  doxygen
+  414  doxygen.org
+  415  install doxygen
+  416  doc
+  417  ls
+  418  cd html
+  419  ls
+  420  doxygen
+  421  cmake -L ..
+  422  cd ..
+  423  cmake -L ..
+  424  cd ..
+  425  cmake -L ..
+  426  make
+  427  make *.cc
+  428  make
+  429  make install
+  430  make
+  431  ls
+  432  make clean
+  433  ls
+  434  make doc
+  435  make clean
+  436  make install
+  437  sudo apt install doxygen-gui
+  438  ls
+  439  doxywizard
+  440  ls
+  441  cd Sample_student_project
+  442  ls
+  443  git add *
+  444  git commit
+  445  cd ..
+  446  git add *
+  447  git commit
+  448  git push
+  449  doxywizard
+  450  ls
+  451  doxywizard
+  452  make doc
+  453  git pull
+  454  git add .
+  455  git commit
+  456  git push
+  457  git tag
+  458  git
+  459  git diff
+  460  git pull
+  461  cd Sample_student_project
+  462  g++ *.cc
+  463  make
+  464  git pull
+  465  cd -
+  466  cd +
+  467  git pull
+  468  cd Sample_student_project
+  469  make
+  470  git add .
+  471  git branch
+  472  git checkout -b working
+  473  git branch
+  474  ls
+  475  git commit
+  476  git push
+  477  checkout
+  478  checkout master
+  479  git checkout
+  480  ls
+  481  git branch
+  482  git checkout master
+  483  git push --set-upstream origin master
+  484  git checkout working
+  485  git add .
+  486  git commit
+  487  git push
+  488  git push --set-upstream origin working
+  489  git add .
+  490  git commit
+  491  git push
+  492  make clean
+  493  make
+  494  ./a.out
+  495  make
+  496  ./a.out
+  497  exec
+  498  ./exec
+  499  make clean
+  500  git pull
+  501  git tag
+  502  git branch
+  503  history
+  504  git pull
+  505  git tag
+  506  git log --stat
+  507  git tag
+  508  make all
+  509  make clean
+  510  git branch
+  511  history
+

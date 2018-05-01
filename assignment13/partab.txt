@@ -1,0 +1,13 @@
+TEST 1
+The error I got was "Conditional jump or move depends on uninitialised value(s)". This error means that the variable that determines whether the condition is true or false does was not initialized to true or false. To fix this I added the line "x = true;"
+
+TEST 2
+The error I got was "Invalid write of size 4
+==3275==    at 0x4006C6: main (test2.cc:16)
+==3275==  Address 0x0 is not stack'd, malloc'd or (recently) free'd". This error means that I don't have access to the address 0x4006C6 or a[0] and I seg faulted. To fix this I removed the line "x[0] = 10;"
+
+TEST 3 
+NO ERRORS
+
+TEST 4 
+NO ERRORS
